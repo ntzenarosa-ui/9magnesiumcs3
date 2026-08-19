@@ -1,9 +1,9 @@
-Computational Thinking Exercise
-Smart Vending Machine
-Name: Nathaniel
-Section: Magnesium
-Last Name: Zenarosa
-Date: 08/18/2026
+# Computational Thinking Exercise
+## Smart Vending Machine
+**Name:** Nathaniel
+**Section:** Magnesium
+**Last Name:** Zenarosa
+**Date:** 08/18/2026
 
 ## Step 1: Identify the Big Problem
 ### Main Problem
