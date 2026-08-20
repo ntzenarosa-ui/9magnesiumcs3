@@ -5,4 +5,4 @@
 
 * [Computational Thinking Exercise](ctskillsMagnesiumZenarosa.md)
 * [Chinese Zodiac](zodiacMagnesiumZenarosa.md)
-https://vscode.dev/github/ntzenarosa-ui/9magnesiumcs3
+* [OOP](ila_oop.md)
