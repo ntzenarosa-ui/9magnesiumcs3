@@ -17,12 +17,4 @@ Polymorphism means giving the exact same command to different objects, and each 
 Class Representation & Pseudocode Example
 
 ## Reflection
-Answer the reflection question here.
-
-
-
-Reflection
-After completing your explanations, answer the following question in 3-5 sentences:
-Among the four pillars of Object-Oriented Programming, which do you think would be most useful in improving the sari-sari store inventory system? Explain your answer.
-
-
+Among the four pillars of Object-Oriented Programming, Inheritance would be the most useful in improving the sari-sari store system. A sari-sari store has hundreds of different types of product, from canned goods and breads to beverages and  snacks. Instead of writing super long conditional "if-else" statements for every item type, Inheritance allows us to create a base item class with common properties like price and stock.
