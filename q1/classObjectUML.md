@@ -22,16 +22,18 @@ Represents an individual athlete in a volleyball team, tracking their personal d
 
 ## Class Diagram
 
-Jersey Number
-
-name: string
-JerseyNumber: int
-position: string
-isStart
-
-service
-updatePosition
-displayStats
++------------------------------------------+
+| Jersey Number |
++------------------------------------------+
+| name: string |
+| JerseyNumber: int |
+| position: string |
+| isStart |
++------------------------------------------+
+| service() |
+| updatePosition(position: string) |
+| displayStats() |
++------------------------------------------+
 
 ## Design Explanation
 
