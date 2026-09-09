@@ -9,8 +9,8 @@ No major changes were needed from my original design.
 |---|---|---|---|
 | name | string | + | should be public to determine who is the program talking about |
 | JerseyNumber | int | + | showing the jersey number is just like the name but number. |
-| position | string | | |
-| isStarter | boolean | | |
+| position | string | - | so the  |
+| isStarter | boolean | - | |
 ## Updated UML Class Diagram
 ![Class Diagram](images/classDiagramSG5.png)
 ## Python Implementation [View Python Source](classImplementation.py)
