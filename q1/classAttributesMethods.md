@@ -7,12 +7,23 @@ No major changes were needed from my original design.
 ## Visibility Decisions
 | Attribute | Data Type | Visibility | Reason |
 |---|---|---|---|
-| name | string | + | should be public to determine who is the program talking about |
-| JerseyNumber | int | + | showing the jersey number is just like the name but number. |
-| position | string | - | so the  |
-| isStarter | boolean | - | |
+| name | string | + | Identifies the player and can be freely accessed for display. |
+| JerseyNumber | int | + | Basic player identifier. |
+| position | string | - | Position updates should be confirmed through methods rather than modified directly.  |
+| isStarter | boolean | - | Lineup status affects team rotation, so it must be safely managed. |
 ## Updated UML Class Diagram
-![Class Diagram](images/classDiagramSG5.png)
++-------------------------------------------------+
+|                    Player                       |
++-------------------------------------------------+
+| + name: String                                  |
+| + jerseyNumber: Integer                         |
+| - position: String                              |
+| - isStarter: Boolean                            |
++-------------------------------------------------+
+| + get_position(): String                        |
+| + set_starter_status(status: Boolean)           |
+| + display_info()                                |
++-------------------------------------------------+
 ## Python Implementation [View Python Source](classImplementation.py)
 ## Test Run
 ![Test Run](images/classTestRun.png)
