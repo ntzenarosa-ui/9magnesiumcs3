@@ -21,13 +21,13 @@ class Player:
 player1 = Player("Alyssa", 2, "Outside Hitter", False)
 player2 = Player("Jia", 12, "Setter", True)
 
-print("--- BEFORE ---")
+print("BEFORE")
 player1.display_info()
 player2.display_info()
 
-print("\n--- ACTION (Changing Player 1 Only) ---")
+print("ACTION")
 player1.set_starter_status(True)
 
-print("\n--- AFTER ---")
+print("AFTER")
 player1.display_info()
 player2.display_info()
