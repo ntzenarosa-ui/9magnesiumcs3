@@ -33,6 +33,12 @@ No major changes were needed from my original design.
 
 ## Analysis
 ### Why did you make your chosen attribute private?
+Position and isStarter are essential informations and should be private as it can significantly affect the teams performance. Additionally, it is private so the other won't know their strategy.
+
 ### Which method changes the state of your object?
+get_position, it determines what will the role of the player be in the game.
+
 ### How did your two objects demonstrate that instances are independent?
+
+
 ### What is the difference between your class diagram and your object diagram?
