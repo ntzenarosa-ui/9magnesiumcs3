@@ -1,6 +1,6 @@
 # Class Attributes and Methods
 ## Previous Design
-Link to my previous activity:[classObjectUML.md](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q1/classObjectUML.md)
+Link to my previous activity: [classObjectUML.md](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q1/classObjectUML.md)
 ## Design Revision
 Describe any changes made to your original class.
 No major changes were needed from my original design.
