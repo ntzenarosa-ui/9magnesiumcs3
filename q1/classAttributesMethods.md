@@ -27,8 +27,10 @@ No major changes were needed from my original design.
 ## Python Implementation [View Python Source](classImplementation.py)
 ## Test Run
 ![Test Run](images/classTestRun.png)
+
 ## Object Diagram
 ![Object Diagram](images/objectDiagram.png)
+
 ## Analysis
 ### Why did you make your chosen attribute private?
 ### Which method changes the state of your object?
