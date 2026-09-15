@@ -29,16 +29,35 @@ No major changes were needed from my original design.
 ![Test Run](images/classTestRun.png)
 
 ## Object Diagram
-![Object Diagram](images/objectDiagram.png)
++------------------------------------+
+| player1: Player                    |
++------------------------------------+
+| _name = "Alyssa"                   |
+| _jerseyNumber = 2                  |
+| _position = "Outside Hitter"       |
+| _isStarter = False                 |
++------------------------------------+
+
++------------------------------------+
+| player2: Player                    |
++------------------------------------+
+| _name = "Jia"                      |
+| _jerseyNumber = 12                 |
+| _position = "Setter"               |
+| _isStarter = True                  |
++------------------------------------+
 
 ## Analysis
 ### Why did you make your chosen attribute private?
 Position and isStarter are essential informations and should be private as it can significantly affect the teams performance. Additionally, it is private so the other won't know their strategy.
 
 ### Which method changes the state of your object?
-get_position, it determines what will the role of the player be in the game.
+set_starter_status(status: Boolean). It modifies the state of the _isStarter attribute from False to True and vice versa.
 
 ### How did your two objects demonstrate that instances are independent?
+player1.set_starter_status(True) was called, only Alyssa's role updated from Substitute to Starter. Jia's (player2) attributes remained completely unchanged, showing that each object holds its own separate memory space and state.
 
 
 ### What is the difference between your class diagram and your object diagram?
+
+The class diagram acts as the blueprint. It defines the structure like attributes and methods, data types (str, int, bool), and visibility (+ for public, - for private) without specific data values. While object diagram represents the actual instances created from that blueprint at a specific point in time, showing real values, for example: _name = "Alyssa", _jerseyNumber = 2.
