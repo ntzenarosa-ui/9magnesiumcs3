@@ -12,39 +12,39 @@ No major changes were needed from my original design.
 | position | string | - | Position updates should be confirmed through methods rather than modified directly.  |
 | isStarter | boolean | - | Lineup status affects team rotation, so it must be safely managed. |
 ## Updated UML Class Diagram
-+-------------------------------------------------+     
-|                VolleyballPlayer                 |     
-+-------------------------------------------------+     
-| + name: String                                  |     
-| + jerseyNumber: Integer                         |     
-| - position: String                              |     
-| - isStarter: Boolean                            |     
-+-------------------------------------------------+     
-| + get_position(): String                        |     
-| + set_starter_status(status: Boolean)           |     
-| + display_info()                                |     
-+-------------------------------------------------+     
++---------------------------------------+     
+|     VolleyballPlayer                  |     
++---------------------------------------+     
+| + name: String                        |     
+| + jerseyNumber: Integer               |     
+| - position: String                    |     
+| - isStarter: Boolean                  |     
++---------------------------------------+     
+| + get_position(): String              |     
+| + set_starter_status(status: Boolean) |     
+| + display_info()                      |     
++---------------------------------------+     
 ## Python Implementation [View Python Source](classImplementation.py)
 ## Test Run
 ![Test Run](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q1/images/classTestRun.jpg)
 
 ## Object Diagram
-+------------------------------------+      
-| player1: VolleyballPlayer          |      
-+------------------------------------+      
-| name = "Alyssa"                    |      
-| jerseyNumber = 2                   |      
-| position = "Outside Hitter"        |      
-| isStarter = False                  |      
-+------------------------------------+      
++-----------------------------+      
+| player1: VolleyballPlayer   |      
++-----------------------------+      
+| name = "Alyssa"             |      
+| jerseyNumber = 2            |      
+| position = "Outside Hitter" |      
+| isStarter = False           |      
++-----------------------------+      
 
-+------------------------------------+      
-| player2: VolleyballPlayer          |      
-+------------------------------------+      
-| name = "Jia"                       |      
-| jerseyNumber = 12                  |      
-| position = "Setter"                |      
-| isStarter = True                   |      
++-----------------------------+      
+| player2: VolleyballPlayer   |      
++-----------------------------+      
+| name = "Jia"                |      
+| jerseyNumber = 12           |      
+| position = "Setter"         |      
+| isStarter = True            |      
 +------------------------------------+      
 
 ## Analysis
