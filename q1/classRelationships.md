@@ -1,6 +1,6 @@
 # Class Relationships: Association and Multiplicity
 ## Previous Work
-[Part I - Classes and Objects](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q1/classObjectUML.md)
+[Part I - Classes and Objects](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q1/classObjectUML.md)      
 [Part II - Class Attributes and Methods](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q1/classAttributesMethods.md)
 ## Existing Class
 Class: VolleyballPlayer     
