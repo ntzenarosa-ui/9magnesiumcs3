@@ -9,11 +9,11 @@ Description: Represents an individual athlete in a volleyball team, tracking the
 Class: Sports   
 Description: 
 ## Association
-Relationship:
+Relationship:   
 Explanation:
 ## Multiplicity
 
-Multiplicity:
+Multiplicity:   
 Explanation:
 ## UML Class Relationship Diagram
 ![Class Relationship Diagram](images/classRelationshipDiagram.png)
