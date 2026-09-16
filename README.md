@@ -8,3 +8,4 @@
 * [OOP](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q1/ila_oop.md)
 * [OOPAct](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q1/classObjectUML.md)
 * [classAttributesMethod.md](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q1/classAttributesMethods.md)
+* [classRelationships.md](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q1/classRelationships.md)
