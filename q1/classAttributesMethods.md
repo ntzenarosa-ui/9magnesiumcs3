@@ -13,7 +13,7 @@ No major changes were needed from my original design.
 | isStarter | boolean | - | Lineup status affects team rotation, so it must be safely managed. |
 ## Updated UML Class Diagram
 +---------------------------------------+     
-|     VolleyballPlayer                  |     
+|         VolleyballPlayer              |     
 +---------------------------------------+     
 | + name: String                        |     
 | + jerseyNumber: Integer               |     
@@ -45,7 +45,7 @@ No major changes were needed from my original design.
 | jerseyNumber = 12           |      
 | position = "Setter"         |      
 | isStarter = True            |      
-+------------------------------------+      
++-----------------------------+      
 
 ## Analysis
 ### Why did you make your chosen attribute private?
