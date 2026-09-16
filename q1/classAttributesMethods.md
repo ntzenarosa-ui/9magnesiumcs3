@@ -13,7 +13,7 @@ No major changes were needed from my original design.
 | isStarter | boolean | - | Lineup status affects team rotation, so it must be safely managed. |
 ## Updated UML Class Diagram
 +-------------------------------------------------+
-|                    Player                       |
+|                VolleyballPlayer                 |
 +-------------------------------------------------+
 | + name: String                                  |
 | + jerseyNumber: Integer                         |
@@ -26,25 +26,25 @@ No major changes were needed from my original design.
 +-------------------------------------------------+
 ## Python Implementation [View Python Source](classImplementation.py)
 ## Test Run
-![Test Run](images/classTestRun.png)
+![Test Run](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q1/images/classTestRun.jpg)
 
 ## Object Diagram
 +------------------------------------+
-| player1: Player                    |
+| player1: VolleyballPlayer          |
 +------------------------------------+
-| _name = "Alyssa"                   |
-| _jerseyNumber = 2                  |
-| _position = "Outside Hitter"       |
-| _isStarter = False                 |
+| name = "Alyssa"                    |
+| jerseyNumber = 2                   |
+| position = "Outside Hitter"        |
+| isStarter = False                  |
 +------------------------------------+
 
 +------------------------------------+
-| player2: Player                    |
+| player2: VolleyballPlayer          |
 +------------------------------------+
-| _name = "Jia"                      |
-| _jerseyNumber = 12                 |
-| _position = "Setter"               |
-| _isStarter = True                  |
+| name = "Jia"                       |
+| jerseyNumber = 12                  |
+| position = "Setter"                |
+| isStarter = True                   |
 +------------------------------------+
 
 ## Analysis
