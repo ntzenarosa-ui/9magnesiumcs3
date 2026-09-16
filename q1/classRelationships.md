@@ -3,7 +3,7 @@
 [Part I - Classes and Objects](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q1/classObjectUML.md)
 [Part II - Class Attributes and Methods](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q1/classAttributesMethods.md)
 ## Existing Class
-Class: VolleyballPlayer 
+Class: VolleyballPlayer     
 Description: Represents an individual athlete in a volleyball team, tracking their personal detaild, court position, and performance statistics.
 ## New Related Class
 Class: Sports   
