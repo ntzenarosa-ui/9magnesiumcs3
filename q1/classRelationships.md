@@ -23,8 +23,10 @@ Explanation: A team requires a list of players to compete, so it can contain mul
 ## Object Relationship Diagram
 ![Object Relationship Diagram](images/objectRelationshipDiagram.png)
 ## Analysis
-### What is the association between your two classes?
-### What multiplicity did you choose and why?
+### What is the association between your two classes?   
+Team contains players, that means that a team or a volleyball team is composed of many individual volleyball players, and a group of volleyball players forms a team.
+### What multiplicity did you choose and why?   
+Team 1 -> 0..* VolleyballPlayer, that means that a team requires a list of players to compete, so it can contain multiple VolleyballPlayer objects or none (0..*). A player, in this scenario, belongs to exactly.
 ### How did you implement the relationship in Python?
 ### Why did you store an object reference instead of copying its data?
 ### If your relationship uses many, why is a list appropriate?
