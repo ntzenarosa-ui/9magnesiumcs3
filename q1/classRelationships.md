@@ -6,7 +6,7 @@
 Class: VolleyballPlayer
 Description: Represents an individual athlete in a volleyball team, tracking their personal detaild, court position, and performance statistics.
 ## New Related Class
-Class: Sports
+Class: Sports   
 Description: 
 ## Association
 Relationship:
