@@ -6,15 +6,14 @@
 Class: VolleyballPlayer     
 Description: Represents an individual athlete in a volleyball team, tracking their personal detaild, court position, and performance statistics.
 ## New Related Class
-Class: Sports   
-Description: 
+Class: Team   
+Description: It represents the entire volleyball team, including its name, coach, and roster of players.
 ## Association
-Relationship:   
-Explanation:
+Relationship: Team contains players   
+Explanation: A team or a volleyball team is composed of many individual volleyball players, and a group of volleyball players forms a team.
 ## Multiplicity
-
-Multiplicity:   
-Explanation:
+Multiplicity: Team 1 -> 0..* VolleyballPlayer    
+Explanation: A team requires a list of players to compete, so it can contain multiple VolleyballPlayer objects or none (0..*). A player, in this scenario, belongs to exactly one specific team (1).
 ## UML Class Relationship Diagram
 ![Class Relationship Diagram](images/classRelationshipDiagram.png)
 ## Python Implementation
