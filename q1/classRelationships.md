@@ -19,7 +19,7 @@ Explanation: A team requires a list of players to compete, so it can contain mul
 ## Python Implementation
 [View Python Source](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q1/classRelationship.py)
 ## Test Run
-![Relationship Test Run](images/relationshipTestRun.png)
+![Relationship Test Run](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q1/images/relationshipTestRun.png)
 ## Object Relationship Diagram
 ![Object Relationship Diagram](images/objectRelationshipDiagram.png)
 ## Analysis
