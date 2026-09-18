@@ -17,7 +17,7 @@ Explanation: A team requires a list of players to compete, so it can contain mul
 ## UML Class Relationship Diagram
 ![Class Relationship Diagram](images/classRelationshipDiagram.png)
 ## Python Implementation
-[View Python Source](classRelationships.py)
+[View Python Source](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q1/classRelationship.py)
 ## Test Run
 ![Relationship Test Run](images/relationshipTestRun.png)
 ## Object Relationship Diagram
