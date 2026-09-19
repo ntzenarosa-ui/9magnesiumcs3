@@ -12,10 +12,37 @@ Description: It represents the entire volleyball team, including its name, coach
 Relationship: Team contains players   
 Explanation: A team or a volleyball team is composed of many individual volleyball players, and a group of volleyball players forms a team.
 ## Multiplicity
-Multiplicity: Team 1 -> 0..* VolleyballPlayer    
+Multiplicity: Team 1 --- 0..* VolleyballPlayer    
 Explanation: A team requires a list of players to compete, so it can contain multiple VolleyballPlayer objects or none (0..*). A player, in this scenario, belongs to exactly one specific team (1).
-## UML Class Relationship Diagram
-![Class Relationship Diagram](images/classRelationshipDiagram.png)
+## UML Class Relationship Diagram   
+
++------------------------------+    
+|               Team           |    
++------------------------------+    
+| + team_name : string         |    
+| + coach_name : string        |    
+| + roster : list<Player>      |    
++------------------------------+    
+| + add_player(player : Player)|    
+| + display_roster()           |    
++------------------------------+    
+    1   
+    |   
+    | contains  
+    |   
+    0..*    
++------------------------------+    
+|              Player          |    
++------------------------------+    
+| + name : string              |    
+| + jerseyNumber : int         |    
+| - __position : string        |    
+| - __isStarter : bool         |    
++------------------------------+    
+| + get_position()             |    
+| + set_starter_status(status) |    
+| + display_info()             |    
++------------------------------+    
 ## Python Implementation
 [View Python Source](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q1/classRelationship.py)
 ## Test Run

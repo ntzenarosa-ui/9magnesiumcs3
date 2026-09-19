@@ -14,7 +14,7 @@ class Player:
 
     def display_info(self):
         role = "Starter" if self.__isStarter else "Substitute"
-        print(f"  - #{self.jerseyNumber} {self.name} | Position: {self.__position} | Status: {role}")
+        print(f"- #{self.jerseyNumber} {self.name} | Position: {self.__position} | Status: {role}")
 
 class Team:
     def __init__(self, team_name: str, coach_name: str):
@@ -35,7 +35,7 @@ class Team:
                 player.display_info()
 
 if __name__ == "__main__":
-    print("--- BEFORE RELATIONSHIP ---")
+    print("BEFORE RELATIONSHIP")
     ReneKarasuno = Team("ReneKarasuno Palo", "Tab Baldwin")
     
     player1 = Player("Rene", 58, "Outside Hitter", False)
