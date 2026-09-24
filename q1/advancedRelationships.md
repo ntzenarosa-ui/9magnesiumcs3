@@ -1,6 +1,6 @@
 # Advanced Class Relationships
 ## Previous Activities
-[classAttrib](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q1/classAttributesMethods.md)
+[classAttrib](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q1/classAttributesMethods.md)    
 [classRel](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q1/classRelationships.md)
 ## Existing System Description:
 ## Inheritance Relationship
