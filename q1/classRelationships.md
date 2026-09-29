@@ -15,7 +15,7 @@ Explanation: A team or a volleyball team is composed of many individual volleyba
 Multiplicity: Team 1 --- 0..* VolleyballPlayer    
 Explanation: A team requires a list of players to compete, so it can contain multiple VolleyballPlayer objects or none (0..*). A player, in this scenario, belongs to exactly one specific team (1).
 ## UML Class Relationship Diagram   
-
+```text
 +------------------------------+    
 |               Team           |    
 +------------------------------+    
@@ -43,6 +43,7 @@ Explanation: A team requires a list of players to compete, so it can contain mul
 | + set_starter_status(status) |    
 | + display_info()             |    
 +------------------------------+    
+```
 ## Python Implementation
 [View Python Source](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q1/classRelationship.py)
 ## Test Run
