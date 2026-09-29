@@ -57,10 +57,10 @@ if __name__ == "__main__":
     player2.display_info()
     player3.display_info()
 
-    print("\nBUILDING RELATIONSHIP")
+    print("BUILDING RELATIONSHIP")
     ReneKarasuno.add_player(player1)
     ReneKarasuno.add_player(player2)
     ReneKarasuno.add_player(player3)
 
-    print("\nAFTER RELATIONSHIP")
+    print("AFTER RELATIONSHIP")
     ReneKarasuno.display_roster() 
