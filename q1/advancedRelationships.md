@@ -40,32 +40,7 @@ Relationship: Aggregation (Team HAS-A Player)
 Explanation: The Team class contains Player/s objects in its roster, but this is an Aggregation relationship. The Player objects exist independently of the team, so if a Team object is deleted, the Player instances still exist in memory.
 
 ## Advanced UML Diagram
-
-```text
-+-----------------------------------+
-|              Person               |
-+-----------------------------------+
-| + name : string                   |
-| + age : int                       |
-+-----------------------------------+
-| + display_person_info()           |
-+-----------------------------------+
-                  ^
-                  |
-                  |  inherits (IS-A)
-                  |
-+-----------------------------------+       1               contains / roster              0..* +-----------------------------------+
-|              Player               | <---------------------------------------------------> |               Team                |
-+-----------------------------------+                                 (Aggregation)         +-----------------------------------+
-| + jerseyNumber : int              |                                                       | + team_name : string              |
-| - __position : string             |                                                       | + coach_name : string             |
-| - __isStarter : bool              |                                                       | + roster : list<Player>           |
-+-----------------------------------+                                                       +-----------------------------------+
-| + get_position()                  |                                                       | + add_player(player : Player)     |
-| + set_starter_status(status)      |                                                       | + display_roster()                |
-| + display_info()                  |                                                       +-----------------------------------+
-+-----------------------------------+
-```
+![Advanced UML](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q1/images/advancedClassDiagram.png)
 ## Python Implementation
 [Source Code](advancedRelationships.py)
 ## Test Run
