@@ -48,4 +48,4 @@ Explanation: The Team class contains Player/s objects in its roster, but this is
 ## Object Diagram
 ![Objects](images/advancedObjectDiagram.png)
 
-## Reflectionsentsildildild
+## Reflections

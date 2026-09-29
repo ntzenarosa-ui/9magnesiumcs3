@@ -48,7 +48,31 @@ Explanation: A team requires a list of players to compete, so it can contain mul
 ## Test Run
 ![Relationship Test Run](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q1/images/relationshipTestRun.png)
 ## Object Relationship Diagram
-![Object Relationship Diagram](images/objectRelationshipDiagram.png)
+```text
++-------------------------------------------------+
+|               ReneKarasuno : Team               |
++-------------------------------------------------+
+| team_name = "ReneKarasuno Palo"                 |
+| coach_name = "Tab Baldwin"                      |
+| roster = [player1, player2, player3]            |
++-------------------------------------------------+
+                         |
+                         |  has / contains
+                         |
+      +------------------+------------------+
+      |                  |                  |
+      v                  v                  v
++-----------+      +-----------+      +-----------+
+| player1   |      | player2   |      | player3   |
+| : Player  |      | : Player  |      | : Player  |
++-----------+      +-----------+      +-----------+
+| name="Rene"|     | name="Bater"|    | name="Bonia"|
+| age=16    |      | age=16    |      | age=15    |
+| jersey=58 |      | jersey=68 |      | jersey=67 |
+| pos="OH"  |      | pos="Setter"|    | pos="OH"  |
++-----------+      +-----------+      +-----------+
+```
+
 ## Analysis
 ### What is the association between your two classes?   
 Team contains players, that means that a team or a volleyball team is composed of many individual volleyball players, and a group of volleyball players forms a team.
