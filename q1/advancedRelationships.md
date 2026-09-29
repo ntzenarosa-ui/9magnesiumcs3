@@ -9,7 +9,7 @@ Parent: Person
 Child: Player   
 Explanation: A "Player" IS-A "Person". Every player naturally possesses personal traits such as a name and age, while also having some sports properties like a jersey number, court position, and starter status.   
 ## Inheritance UML
-'''text
+```text
 +-----------------------------------+   
 |              Person               |   
 +-----------------------------------+   
