@@ -46,7 +46,31 @@ Explanation: The Team class contains Player/s objects in its roster, but this is
 ## Test Run
 ![Test](images/advancedTestRun.png)
 ## Object Diagram
-![Objects](images/advancedObjectDiagram.png)
+```text
++-------------------------------------------------+
+|               ReneKarasuno : Team               |
++-------------------------------------------------+
+| team_name = "ReneKarasuno Palo"                 |
+| coach_name = "Tab Baldwin"                      |
+| roster = [player1, player2, player3]            |
++-------------------------------------------------+
+                         |
+                         |  roster (Aggregation)
+                         |
+      +------------------+------------------+
+      |                  |                  |
+      v                  v                  v
++-----------+      +-----------+      +-----------+
+| player1   |      | player2   |      | player3   |
+| : Player  |      | : Player  |      | : Player  |
++-----------+      +-----------+      +-----------+
+| name="Rene"|     | name="Bater"|    | name="Bonia"|
+| age=16    |      | age=16    |      | age=15    |
+| jersey=58 |      | jersey=68 |      | jersey=67 |
+| pos="OH"  |      | pos="Setter"|    | pos="OH"  |
+| starter=F |      | starter=T |      | starter=T |
++-----------+      +-----------+      +-----------+
+```
 
 ## Reflections
 ### 1. Why did you choose your inheritance relationship?
