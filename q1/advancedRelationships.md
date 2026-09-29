@@ -49,3 +49,17 @@ Explanation: The Team class contains Player/s objects in its roster, but this is
 ![Objects](images/advancedObjectDiagram.png)
 
 ## Reflections
+### 1. Why did you choose your inheritance relationship?
+I chose Person as the parent class and Player as the child class because a player is a type of person (Player IS-A Person). Inheriting from Person allows the Player class to adopt basic personal attributes while keeping somr specific sports details separated.
+
+### 2. How did inheritance reduce duplicate code?
+Inheritance reduced duplicate code by allowing the Player class to reuse general attributes like name and age directly from Person.s
+### 3. Why is your HAS-A relationship Composition or Aggregation? 
+
+My HAS-A relationship is Aggregation because Player objects is independent from the Team. If the Team object is removed or deleted, the individual Player objects continue to exist independently in memory.
+
+### 4. What is the difference between Association from Part III and the advanced relationship you implemented?
+Association in Part III was just a basic connection showing that Team stores and uses Player instances. In Part IV, I made Inheritance(Player IS-A Person) and defined the HAS-A connection as Aggregation based on object lifecycles. 
+
+### 5. How does your design follow the DRY principle?
+By centralizing shared personal attributes in the Person class instead of duplicating them.
