@@ -35,8 +35,10 @@ Explanation: A "Player" IS-A "Person". Every player naturally possesses personal
 +-----------------------------------+
 ```
 ## Composition/Aggregation
-Relationship:
-Explanation:
+
+Relationship: Aggregation (Team HAS-A Player)   
+Explanation: The Team class contains Player/s objects in its roster, but this is an Aggregation relationship. The Player objects exist independently of the team, so if a Team object is deleted, the Player instances still exist in memory.
+
 ## Advanced UML Diagram
 ![Advanced UML](images/advancedClassDiagram.png)
 ## Python Implementation
