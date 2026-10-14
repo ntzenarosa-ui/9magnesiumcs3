@@ -1,8 +1,8 @@
 # 9magnesiumcs3
-**Name:** Nathaniel
-**Section:** Magnesium
-**Last Name:** Zenarosa
-
+**Name:** Nathaniel 
+**Section:** Magnesium  
+**Last Name:** Zenarosa 
+1st Quarter 
 * [Computational Thinking Exercise](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q1/ctskillsMagnesiumZenarosa.md)
 * [Chinese Zodiac](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q1/zodiacMagnesiumZenarosa.md)
 * [OOP](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q1/ila_oop.md)
@@ -10,4 +10,6 @@
 * [classAttributesMethod.md](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q1/classAttributesMethods.md)
 * [classRelationships.md](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q1/classRelationships.md)
 * [advancedRelationships.md](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q1/advancedRelationships.md)
+
+2nd Quarter 
 * [sg8_encapsulation.py](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q2/sg8_encapsulation.py)
