@@ -10,3 +10,4 @@
 * [classAttributesMethod.md](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q1/classAttributesMethods.md)
 * [classRelationships.md](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q1/classRelationships.md)
 * [advancedRelationships.md](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q1/advancedRelationships.md)
+* [sg8_encapsulation.py](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q2/sg8_encapsulation.py)
