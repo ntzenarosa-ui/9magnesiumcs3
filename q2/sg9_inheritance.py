@@ -1,5 +1,6 @@
+#making a parent class
 class Publication:
-    def __init__(self, title, author):
+    def __init__(self, title, author): #initialize
         self.__title = title
         self.__author = author
     @property
@@ -9,7 +10,7 @@ class Publication:
     @property
     def author(self):
         return self.__author
-    
+#child class
 class Book(Publication):
     def __init__(self, title, author, number_of_pages):
         super().__init__(title, author)
@@ -24,7 +25,7 @@ class Book(Publication):
             return number_of_pages
         else:
             print("Number of pages must be positive.")
-
+#child class
 class Magazine(Publication):
     def __init__(self, title, author, issue_number):
         super().__init__(title, author)
@@ -36,9 +37,9 @@ book1 = Book("Guyabano", "Ethan Jer S. Ecal", 310)
 mag1 = Magazine("Mgasin", "Magnesium", 202)
 
 #Printing the information
-print("Publication Information:")
-print(f"Title: {pub1.title}")
-print(f"Author: {pub1.author}")
+print("Publication Information:") #Header
+print(f"Title: {pub1.title}") #prints the title
+print(f"Author: {pub1.author}") #prints the author's name
 
 print("\nBook Information:")
 print(set_num)
