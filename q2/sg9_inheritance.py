@@ -1,29 +1,47 @@
 class Publication:
     def __init__(self, title, author):
-        self.title = title
-        self.author = author
+        self.__title = title
+        self.__author = author
     @property
     def title(self):
-        return self.title
+        return self.__title
+        
     @property
     def author(self):
-        return self.author
+        return self.__author
     
 class Book(Publication):
-    def
+    def __init__(self, title, author, number_of_pages):
+        super().__init__(title, author)
+        self.__number_of_pages = number_of_pages
+    @property
+    def get_num(self):
+        return self.__number_of_pages
+
+    @property
+    def set_num(self):
+        if number_of_pages >= 0:
+            return number_of_pages
+        else:
+            print("Number of pages must be positive.")
 
 class Magazine(Publication):
-    def 
-
-
+    def __init__(self, title, author, issue_number):
+        super().__init__(title, author)
+        self.__issue_number = issue_number
+        
 # Creating objects
-pub1 = Publication("Journal of Experimental Psychology", "Ratchiff, R. & Van Dongen, H.")
-book1 = Book("The Hobbit", "J.R.R. Tolkien", 310)
-mag1 = Magazine("National Geographic", "Various Authors", 202)
+pub1 = Publication("Love as", "Ethan David P. Solano")
+book1 = Book("Guyabano", "Ethan Jer S. Ecal", 310)
+mag1 = Magazine("Mgasin", "Magnesium", 202)
 
 #Printing the information
-print("Publication Information")
-pub1.display_info()
+print("Publication Information:")
+print(f"Title: {pub1.title}")
+print(f"Author: {pub1.author}")
 
-print("\nBook Information")
-book1.set_number_of_pages(-310) #setting invalid
+print("\nBook Information:")
+print(set_num)
+print(f"Title: {book1.title}")
+print(f"Author: {book1.author}")
+print(f"Number of pages: {book1.get_num}")
