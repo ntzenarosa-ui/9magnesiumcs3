@@ -14,3 +14,4 @@
 2nd Quarter 
 * [sg8_encapsulation.py](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q2/sg8_encapsulation.py)
 * [sg9_inheritance.py](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q2/sg9_inheritance.py)
+* [sg10_methodoverriding](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q2/sg10_methodoverriding.py)
