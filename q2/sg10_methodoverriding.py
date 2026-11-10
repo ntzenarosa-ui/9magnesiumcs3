@@ -40,5 +40,5 @@ monkey1 = Monkey("Moneykey")
 animals = [lion1, elephant1, monkey1]
 for animal in animals:
     animal.make_sound()
-for animal in animals:
     animal.eat()
+    print ("-------")
