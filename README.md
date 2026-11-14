@@ -16,3 +16,4 @@
 * [sg9_inheritance.py](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q2/sg9_inheritance.py)
 * [sg10_methodoverriding](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q2/sg10_methodoverriding.py)
 * [sg11_polymorphism_A1](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q2/sg11_polymorphism_A1.py)
+* [sg11_polymorphism_A2](https://github.com/ntzenarosa-ui/9magnesiumcs3/blob/main/q2/sg11_polymorphism_A2.py)
